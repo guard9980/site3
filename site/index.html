@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+   
+   
+
+   
+  
+    <title>TEST</title>
+</head>
+<body>
+	
+					
+
+								
+						<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered">
+							  <div class="modal-content">
+								<div class="modal-header">
+								  <h5 class="modal-title" id="exampleModalLabel">Замовити онлайн</h5>
+								  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">	
+										  
+									<form action="mail.php" method="POST">
+									<div class="mb-3 form-group">
+										<select class="form-select form-select-lg mb-3" name="zam1" size="1" aria-label="size 0 select example">
+											<option selected>Оберіть товар</option>
+											<option value="візитки">візитки</option>							
+											<option value="флаєри">флаєри</option>
+											<option value="плакати">плакати</option>
+											<option value="буклети">буклети</option>
+											<option value="наклейки">наклейки</option>
+											<option value="сертифікати">сертифікати</option>
+											<option value="меню">меню</option>
+											<option value="запрошення">запрошення</option>
+											<option value="календарі">календарі</option>
+											<option value="брошури">брошури</option>
+											<option value="фірмові бланки">фірмові бланки</option>
+											<option value="конверти">конверти</option>
+											<option value="етикетки">етикетки</option>
+											<option value="упаковки(коробки)">упаковки(коробки)</option>
+											<option value="каталоги">каталоги</option>
+											<option value="цінники">цінники</option>
+											<option value="візуальна реклама">візуальна реклама</option>
+											<option value="банери">банери</option>
+											<option value="щоденники">щоденники</option>
+										</select>	
+									</div>
+									<div class="mb-3 form-group">
+									  <label for="recipient-name" class="col-form-label">Ваше ім'я:</label>
+									  <input type="text" class="form-control" name='user_name' id="recipient-name">
+									</div>
+									<div class="mb-3 form-group">
+									  <label for="message-text" class="col-form-label">Ваш телефон:</label>
+									  <input type="text" class="form-control" name='user_phone' id="recipient-name">
+									</div>
+									<div class="mb-3 form-group">
+										<label for="message-text" class="col-form-label">Ваша електронна адреса:</label>
+										<input type="email" class="form-control" name='user_email' id="floatingInputInvalid">
+									</div>
+									<div class="mb-3 form-group">
+									<label for="message-text" class="col-form-label">Повідомлення:</label>
+									<textarea class="form-control" name='mes1' id="message-text"></textarea>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button> 
+										<button type="submit" class="btn btn-primary">Відправити</button>
+									</div>
+									  
+								  </form>
+								</div>
+								
+							  </div>
+							</div>
+						  </div>
+						<!--<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered">
+							  <div class="modal-content">
+								<div class="modal-header">
+								  <h5 class="modal-title" id="exampleModalLabel">Надіслати замовлення</h5>
+								  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+								  <form>
+									<div class="mb-3">
+									  <label for="recipient-name" class="col-form-label">Recipient:</label>
+									  <input type="text" class="form-control" id="recipient-name">
+									</div>
+									<div class="mb-3">
+									  <label for="message-text" class="col-form-label">Message:</label>
+									  <textarea class="form-control" id="message-text"></textarea>
+									</div>
+								  </form>
+								</div>
+								<div class="modal-footer">
+								  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+								  <button type="button" class="btn btn-primary">Send message</button>
+								</div>
+							  </div>
+							</div>
+						  </div>
+						 -->
+						<nav class="nav">
+  							
+							<div class="menu-adap">
+								<!--button.btn-adap$*4-->
+								<div class="sc">
+								<a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" class="btn222">Замовити онлайн</a>
+								</div> <br><br>
+								 <a href="#Gol" type="button" class="menu-hd_text2 adp1">Головна</a> <br>
+							
+								 <a href="#main" type="button" class="menu-hd_text2 adp2">Поліграфія</a> <br>
+							<!-- /.menu-hd_text -->
+								 <a href="#about" type="button" class="menu-hd_text2 adp3">Про нас</a> <br>
+							<!-- /.menu-hd_text -->
+								 <a href="#contact" type="button" class="menu-hd_text2 adp4">Контакти</a>
+							</div>
+							<!-- /.menu-adap -->
+						
+						</nav>
+						<div class="ancet">
+							<div class="container h33">
+								<a type="button" class="ancetclose"><i class="fas fa-times"></i></a>
+								<form class="inputcont" action="form.php" method="POST">
+									<input type="hidden" name="admin_email[]" value="pavlo.dakiv2007@gmail.com">
+									<label class="input">
+										<p><b>Ваше ім'я:</b><br>
+   										<input type="text" name="user_name" class="texti" size="40" required>
+ 							 			</p>
+									</label>
+									<label class="input">
+										<p><b>Ваш телефон:</b><br>
+   										<input type="text" name="telefon" class="texti" size="40" required>
+ 							 			</p>
+									</label>
+									<label class="input">
+										<p><b>Ваша електронна адреса:</b><br>
+   										<input type="text" name="adrees" class="texti" size="40" required>
+ 							 			</p>
+									</label>
+									<label class="input">
+										<p><b>Повідомлення:</b><br>
+   										<input type="text" name="message" class="texti" size="40" required>
+ 							 			</p>
+									</label>
+									<button type="submit" class="submitbtn">
+										<span class="submit-text">Надіслати</span>
+										<!-- /.submit-text -->
+									</button>
+									<!-- /.submitbtn -->
+								</form>
+								<!-- /.inputcont -->
+								
+								<!-- /.input -->
+								
+								<!-- /.ancetclose -->
+							</div>
+							<!-- /.container -->
+						</div>
+						<!-- /.ancet -->
+						<button class="nav-tgl" type="button" aria-label="toggle menu">
+  							<!-- this span just for the three dividers in the hamburger button--><span aria-hidden="true"></span>
+						</button>
+		<div class="header">	
+			<div class="hd">
+				<div class="container">	
+					<div class="row justify-content-between align-items-center flex-nowrap">
+						<div class="col-2 logo">Друкарня</div>
+						
+						<div id="forjs" class="col-3 sc l1">
+							<a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" class="btn222">Замовити онлайн</a>
+						</div>
+						<!-- /.menu -->
+						<div id="forjs2" class="col-7 menu-hd row row-cols-4 float-right">
+							<a href="#Gol" class=" col text-white h4 text-decoration-none">Головна</a>
+							<!-- /.menu-hd_text -->
+							<a href="#main" class=" col text-white h4 text-decoration-none">Поліграфія</a>
+							<!-- /.menu-hd_text -->
+							<a href="#about" class=" col text-white h4 text-decoration-none">Про нас</a>
+							<!-- /.menu-hd_text -->
+							<a href="#contact" class=" col text-white h4 text-decoration-none">Контакти</a>
+							<!-- /.menu-hd_text -->
+						</div>
+					</div>	
+				</div>
+				<!-- /.container -->
+			</div>
+			<!-- /.hd -->
+		</div>
+		
+		<!-- /.ancet -->
+		<div  class="sec">
+			<div id="Gol" class="container">
+
+					
+				
+			</div>
+		
+		</div>
+		
+		<!-- /.sec222 -->
+		<div  class="conp">
+			<div class="container">
+				<h1 id="main">ЗАМОВИТИ ПОЛІГРАФІЮ:</h1>
+				<div class="box">
+					<a  href="#" class="subbox s1" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+						<div class="subtext text-dark text-decoration-none"></div>
+						<!-- /.subtext -->
+						Друк візиток
+					</a>
+
+					<a href="#" class="subbox s2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+						<div class="subtext text-dark text-decoration-none">Друк Флаєрів</div>
+						<!-- /.subtext -->
+						
+					</a>
+
+					<a href="#" class="subbox s3" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+						<div class="subtext text-dark text-decoration-none">Друк плакатів</div>
+						<!-- /.subtext -->
+						
+					</a>
+
+
+					<a href="#" class="subbox s4" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+						<div class="subtext text-dark text-decoration-none">Друк буклетів</div>
+						<!-- /.subtext -->
+						
+					</a>
+
+					<a href="#" class="subbox s5" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+						<div class="subtext text-dark text-decoration-none">Друк наклейок</div>
+						<!-- /.subtext -->
+						
+					</a>
+
+					<a href="#" class="subbox s6" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+						<div class="subtext text-dark text-decoration-none">Друк сертифікатів</div>
+						<!-- /.subtext -->
+						
+					</a>
+
+					<a href="#" class="subbox s7" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+						<div class="subtext text-dark text-decoration-none">Друк меню</div>
+						<!-- /.subtext -->
+						
+					</a>
+
+					<a href="#" class="subbox s8" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+						<div class="subtext text-dark text-decoration-none">Друк запрошень</div>
+						<!-- /.subtext -->
+						
+					</a>
+
+					<a href="#" class="subbox s9" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+						<div class="subtext text-dark text-decoration-none">Друк календарів</div>
+						<!-- /.subtext -->
+						
+					</a>
+
+					<a href="#" class="subbox s10" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+						<div class="subtext text-dark text-decoration-none">Друк брошур</div>
+						<!-- /.subtext -->
+						
+					</a>
+
+					<a href="#" class="subbox s11" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+						<div class="subtext text-dark text-decoration-none">Друк фірмових бланків</div>
+						<!-- /.subtext -->
+						
+					</a>
+
+					<a href="#" class="subbox s12" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+						<div class="subtext text-dark text-decoration-none">Друк конвертах</div>
+						<!-- /.subtext -->
+						
+					</a>
+					<a href="#" class="subbox s13" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+						<div class="subtext text-dark text-decoration-none">Друк етикеток</div>
+						<!-- /.subtext -->
+						
+					</a>
+					<a href="#" class="subbox s14" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+						<div class="subtext text-decoration-none">Друк упаковки(коробки)</div>
+						<!-- /.subtext -->
+						
+					</a>
+					<a href="#" class="subbox s15" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+						<div class="subtext text-dark text-decoration-none">Друк каталогів</div>
+						<!-- /.subtext -->
+						
+					</a>
+					<a href="#" class="subbox s16" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+						<div class="subtext text-decoration-none">Друк цінники</div>
+						<!-- /.subtext -->
+						
+					</a>
+					<a href="#" class="subbox s17" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+						<div class="subtext text-decoration-none">Друк візуальної реклами(вивіски,брендування авто,обклеювання вікон)</div>
+						<!-- /.subtext -->
+						
+					</a>
+					<a href="#" class="subbox s18" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+						<div class="subtext text-decoration-none">Друк банерів</div>
+						<!-- /.subtext -->
+						
+					</a>
+					<a href="#" class="subbox s19" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+						<div class="subtext text-decoration-none">Друк щоденників</div>
+						<!-- /.subtext -->
+						
+					</a>
+					<!-- /.subbox -->
+				</div>
+				<!-- /.box -->
+			</div>
+			<!-- /.container -->
+		</div>
+		<div id="about" class="contabout">
+			<div class="container about">
+				<div class="row">
+					<div class="col-12">
+						<h1 >Про нас</h1>
+						<p class="text-white">Ми намагаємось втілити Ваші асоціації, щодо продукту чи послуги в рекламні образи, які спримає потенційний клієнт , ми надихаємо та створюємо прекрасне!
+
+							Наше завдання завоювати увагу клієнта до Вашого продукту, чи послуги. Наш досвід та інтуїція підказує, що для цього не потрібно бути найяскравішим, чи організувати наймасштабнішу рекламну кампанію, потрібно лише дещо відрізнятись від інших, потрібно трохи оригінальності, потрібен той невеликий штрих, який зробить рекламний продукт захоплюючим, через який замовник зрозуміє з першої секунди взаємодії - Так! Це воно! Те що мені потрібно!
+							
+							Ми стукаємо до Ваших потенційних замовників через наш рекламний продукт, і що саме цікаве - в більшості випадків нам відчиняють!
+							
+							Творчість це наше ім᾿я, наше кредо, наше життя і ми ділимось цим з Вами.
+							Коли Вам необхідно за короткий термін надрукувати візитки, флаєри, рекламні плакати, або будь-яку іншу друковану продукцію і зробити це за отимальною ціною та з бездоганною якістю то Вам до нас!</p>
+					</div>
+				</div>
+				
+
+			</div>
+			<!-- /.container -->
+		</div>
+		<section>
+			<div id="contact" class="container-sm">
+				<div class="accordion accordion-flush" id="accordionFlushExample">
+					<div class="accordion-item">
+					  <h2 class="accordion-header" id="flush-headingOne">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+						  Телефон
+						</button>
+					  </h2>
+					  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+						<div class="accordion-body"><a href="tel:+380672532658" class="text-dark">Надія Дяків +38(067)253 26 58</a></div>
+					  </div>
+					</div>
+					<div class="accordion-item">
+					  <h2 class="accordion-header" id="flush-headingTwo">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+						  Електронна пошта
+						</button>
+					  </h2>
+					  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+						<div class="accordion-body text-decoration-none text-dark">nadya2909@i.ua</div>
+					  </div>
+					</div>
+					<div class="accordion-item">
+					  <h2 class="accordion-header" id="flush-headingThree">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+						  Соціальні мережі
+						</button>
+					  </h2>
+					  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+						<div class="accordion-body"><a href="https://www.facebook.com/profile.php?id=100002129544764" class="text-dark">Фейсбук</a></div>
+					  </div>
+					</div>
+				  </div>
+			</div>
+		</section>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ <script src="https://kit.fontawesome.com/5a7445c7bc.js" crossorigin="anonymous"></script>
+ <script  src="index.js"></script>
+</body>
+</html>
